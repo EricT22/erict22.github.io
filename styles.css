@@ -79,7 +79,7 @@ a:hover {
 
 
 #home {
-    background: linear-gradient(to right, #d1e9c2, #bfe5c6, #afdfcb, #a4d9d0, #9cd2d3);;
+    background: linear-gradient(to right, #d1e9c2, #bfe5c6, #afdfcb, #a4d9d0, #9cd2d3);
     color: #313129;
     text-align: center;
     height: calc(100vh - var(--header-height)); /* Subtract the header height variable */
@@ -236,18 +236,19 @@ a:hover {
 .project-slider-buttons {
     margin-top: 8vmin;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     padding: 0vmin 10vmin;
+    gap: 3vmin;
 }
 
 .project-slider-buttons > button {
     font-size: 3vmin;
     border: 0.4vmin solid rgb(200, 200, 200);
     border-radius: 100%;
-    color: white;
+    color: #c8c8c8;
     background-color: transparent;
-    height: 7vmin;
-    width: 7vmin;
+    height: 8vmin;
+    width: 8vmin;
     cursor: pointer;
     display: flex;
     justify-content: center;
@@ -263,7 +264,7 @@ a:hover {
 
 .project-slider-buttons button:active {
     transform: scale(0.9);
-    background-color: red;
+    background-color: #bfe5c6;
 }
 
 
@@ -332,7 +333,7 @@ a:hover {
     }
 }
 
-
-/* * {
+/* 
+* {
     border:solid 2px red;
  } */
