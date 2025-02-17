@@ -1,27 +1,27 @@
 const projectsData = [
     {
-        title: "Project title",
-        githubLink: "https://www.github.com",
-        description: "blah blah",
-        imageSrc: ""
+        title: "Machine Learning in Tetris",
+        githubLink: "https://www.github.com", // TODO: ADD ACTUAL LINK
+        description: "Created a Deep-Q Learning (DQN) agent which was able to play the game of Tetris in real time and reach a score of over 5 billion points. Research was presented at the 2024 Southern California Conference for Undergraduate Research.",
+        imageSrc: "/imgs/ML Tetris Image.png"
     },
     {
-        title: "Project title",
-        githubLink: "https://www.github.com",
-        description: "blah blah",
-        imageSrc: ""
+        title: "Client-Server Architecture",
+        githubLink: "https://github.com/EricT22/Client-Server-Architecture",
+        description: "Worked in a team to develop a generic client-server architecture using Java and MySQL with user registration and authentication, email recovery, and data storage. Relevant documentation was produced in the form of UML state, class, and use case diagrams.",
+        imageSrc: "/imgs/Client Server Image.png"
     },
     {
-        title: "Project title",
-        githubLink: "https://www.github.com",
+        title: "Tetris in Java",
+        githubLink: "https://github.com/EricT22/Tetris",
         description: "blah blah",
-        imageSrc: ""
+        imageSrc: "/imgs/Tetris in Java Image.png"
     },
     {
-        title: "Testing",
-        githubLink: "https://www.google.com",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis natus quaerat quam earum obcaecati odit error necessitatibus numquam veniam amet? Nostrum sunt exercitationem quod aperiam magnam facilis laboriosam, delectus ea soluta molestias sint quam quae, ratione veritatis unde eaque molestiae fuga doloremque? Reprehenderit eligendi culpa accusantium inventore quam ullam ut?",
-        imageSrc: ""
+        title: "Conway's Game of Life",
+        githubLink: "https://github.com/EricT22/Game-of-Life",
+        description: "blah",
+        imageSrc: "/imgs/Game of Life Image.png"
     }
 ];
 
@@ -47,6 +47,7 @@ const createProjectElement = (project, index) => {
     const titleLink = document.createElement('a');
     titleLink.className = 'text';
     titleLink.href = project.githubLink;
+    titleLink.target = "_blank";
     titleLink.textContent = project.title;
     title.appendChild(titleLink);
 
