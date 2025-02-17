@@ -312,7 +312,7 @@ a:hover {
 
 /* MEDIA QUERIES */
 
-
+/* TODO: font size change on project description and project title for different screen sizes*/
 
 @media screen and (max-width: 992px) {
     .footer-content{
