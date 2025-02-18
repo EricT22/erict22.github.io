@@ -165,13 +165,13 @@ a:hover {
 .project-title {
     position: absolute;
     top: 0;
-    /*font size goes here*/
+    font-size: 1.5vmax;
 }
 
 .project-description {
     position: relative;
     padding: 0vmin 1.5vmin;
-    /*font size goes here*/
+    font-size: 1vmax;
 }
 
 
@@ -312,9 +312,15 @@ a:hover {
 
 /* MEDIA QUERIES */
 
-/* TODO: font size change on project description and project title for different screen sizes*/
-
 @media screen and (max-width: 992px) {
+    .project-title {
+        font-size: 2.25vmax;
+    }
+
+    .project-description {
+        font-size: 1.75vmax;
+    }
+    
     .footer-content{
         flex-direction: column;
     }
