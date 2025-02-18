@@ -1,7 +1,7 @@
 const projectsData = [
     {
         title: "Machine Learning in Tetris",
-        githubLink: "https://www.github.com", // TODO: ADD ACTUAL LINK
+        githubLink: "https://github.com/EricT22/ML-Tetris",
         description: "Created a Deep-Q Learning (DQN) agent which was able to play the game of Tetris in real time and reach a score of over 5 billion points. Research was presented at the 2024 Southern California Conference for Undergraduate Research.",
         imageSrc: "/imgs/ML Tetris Image.png"
     },
@@ -14,13 +14,13 @@ const projectsData = [
     {
         title: "Tetris in Java",
         githubLink: "https://github.com/EricT22/Tetris",
-        description: "blah blah",
+        description: "Challenged myself to recreate the original Tetris 1984 by utilizing the multithreaded capabilities of Java's GUI libraries. Was a large part of the inspiration behind my subsequent machine learning research project. ",
         imageSrc: "/imgs/Tetris in Java Image.png"
     },
     {
         title: "Conway's Game of Life",
         githubLink: "https://github.com/EricT22/Game-of-Life",
-        description: "blah",
+        description: "Developed Conway's Game of Life as a way to learn the fundamentals behind the Java programming language. Acted as the stepping stone that allowed me to implement other projects in Java, such as the game of Tetris.",
         imageSrc: "/imgs/Game of Life Image.png"
     }
 ];
